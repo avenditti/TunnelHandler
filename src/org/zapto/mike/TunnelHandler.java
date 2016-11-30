@@ -1,3 +1,4 @@
+package org.zapto.mike;
 
 import java.util.Random;
 
@@ -39,7 +40,7 @@ class TunnelQueue {
 	private boolean currentDirection;
 	private boolean waiting;
 	private int currentInTunnel;
-	private final int tunnelTravelTime = 5000;
+	private final int tunnelTravelTime = 2500;
 	private final int tunnelWaitTime = 5000;
 	
 	public void enQueue(Car car) throws InterruptedException{
